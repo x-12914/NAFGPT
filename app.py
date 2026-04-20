@@ -178,5 +178,9 @@ def upload_file():
 
     return jsonify({'message': 'Only PDF files are allowed.'}), 400
 
+@app.route('/health', methods=['GET'])
+def health():
+    return jsonify({'status': 'online', 'service': 'NAF-AI-Backend'})
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5006, debug=True)
