@@ -152,7 +152,7 @@ function App() {
           {sidebarOpen && (
             <div className="ml-3 overflow-hidden">
               <p className="font-black text-base tracking-tighter leading-none whitespace-nowrap">
-                NAF<span className="text-cyan-400">ASSIST</span>
+                NAF<span className="text-cyan-400">GPT</span>
               </p>
               <p className="text-[9px] text-cyan-500/70 tracking-[0.3em] uppercase font-bold mt-0.5 whitespace-nowrap">
                 Tactical AI
