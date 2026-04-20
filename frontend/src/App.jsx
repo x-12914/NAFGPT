@@ -14,7 +14,7 @@ import {
   Info,
 } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'http://143.244.133.125:5006';
 
 // ─── App Shell ────────────────────────────────────────────────────────────────
 
