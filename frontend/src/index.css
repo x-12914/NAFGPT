@@ -1,0 +1,20 @@
+/*
+  index.css — minimal overrides only.
+  Layout and component styling is handled by Tailwind (loaded via CDN in index.html).
+*/
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(30, 41, 59, 0.8); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #00e5ff; }
+
+/* Remove default browser outline on inputs/buttons */
+input, textarea, button { outline: none; }
+
+/* Fade-in animation for page transitions */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
