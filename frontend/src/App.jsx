@@ -73,7 +73,7 @@ function App() {
               NAF<span className="text-cyan-400">GPT</span>
             </h1>
             <p className="text-center text-xs text-slate-500 uppercase tracking-[0.25em] font-semibold mb-10">
-              Nigerian Air Force Intel Portal
+              Nigerian Air Force GPT Portal
             </p>
 
             <form onSubmit={handleLogin} className="space-y-5">
