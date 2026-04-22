@@ -70,7 +70,7 @@ function App() {
             </div>
 
             <h1 className="text-4xl font-black text-center text-white tracking-tight mb-1">
-              NAF<span className="text-cyan-400">AI</span>
+              NAF<span className="text-cyan-400">GPT</span>
             </h1>
             <p className="text-center text-xs text-slate-500 uppercase tracking-[0.25em] font-semibold mb-10">
               Nigerian Air Force Intel Portal
@@ -155,7 +155,7 @@ function App() {
                 NAF<span className="text-cyan-400">GPT</span>
               </p>
               <p className="text-[9px] text-cyan-500/70 tracking-[0.3em] uppercase font-bold mt-0.5 whitespace-nowrap">
-                Tactical AI
+                Tactical GPT
               </p>
             </div>
           )}
